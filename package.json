@@ -1,0 +1,19 @@
+{
+  "name": "azure-key-vault-test",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Prueba de acceso a Azure Key Vault desde Node.js",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node --check src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@azure/identity": "^4.10.2",
+    "@azure/keyvault-secrets": "^4.10.0",
+    "dotenv": "^16.6.1"
+  }
+}
